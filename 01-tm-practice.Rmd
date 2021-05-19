@@ -64,7 +64,7 @@ That's it! We're ready to start wrangling some tweets!!!
 Run the following code to try reading into R 5,000 tweets containing the NGSS hashtag and store as a new data frame `ngss_all_tweets`:
 
 ```{r}
-ngss_tweets_q1 <- search_tweets(q = "#NGSSchat", 
+ngss_tweets_q1 <- search_tweets(q = "#AERA21", 
                                 n = 5000)
 ```
 
